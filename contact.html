@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Dakota Malchow</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">$(window).load(function()
+        {
+            $('#slider').nivoSlider({
+                animSpeed: 500, // Slide transition speed
+                pauseTime: 8000
+            });
+        });
+        function MM_preloadImages() {
+            var d = document; if(d.images){
+                if (!d.MM_p) d.MM_p = new Array();       
+                    var i, j = d.MM_p.length, a = MM_preloadImages.arguments; 
+                    for(i=0; i<a.length; i++)
+                        if (a[i].indexOf("#")!=0) {
+                            d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];
+                    }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form action="html_form_send.php" method="post">
+        <label>First Name</label>
+        <input name="firstname" type="text" id="firstname" />
+        <br />
+        <label>Last Name</label>
+        <input name="lastname" type="text" id="lastname" />
+        <br />
+        <label>Email Address</label>
+        <input type="text" name="email" id="email" />
+        <br />
+        <label>Your comments</label>
+        <textarea name="comments" id="comments"></textarea>
+        <br />
+        <input type="submit" />
+    </form>
+</body>
+</html>
