@@ -3,7 +3,7 @@ header("Refresh: 5; URL=http://www.dakotamalchow.com/");
 if(isset($_POST['email'])) {
 	
 	// CHANGE THE TWO LINES BELOW
-	$email_to = "michaellee@bsu.edu";
+	$email_to = "dakotamalchow@gmail.com";
 	
 	$email_subject = "website html form submissions";
 	
