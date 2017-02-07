@@ -1,5 +1,5 @@
 body{
-    background-color: lightgrey;
+    background-color: darkgrey;
 }
 
 .clear{
@@ -7,34 +7,20 @@ body{
     margin: 25px;
 }
 
-#main_container{
-    width: 1200px;
-    height: 580px;
-    margin: auto;
-    text-align: center;
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#screen_in{
-    border-color: black;
-    border: solid;
+#screen{
+    border: solid black;
     background-color: ghostwhite;
-    width: 765px;
+    width: 65%;
     height: 550px;
-    margin: auto;
-    margin-top: 12px;
     border-radius: 25px;
     box-shadow: inset 0 0 50px -15px #000000;
-}
-
-#screen_out{
-    border-color: black;
-    border: solid;
-    background-color: darkgrey;
-    width: 800px;
-    height: 580px;
-    margin: auto;
-    display: inline-block;
-    box-shadow: inset 0 0 10px -5px #000000;
 }
 
 iframe{
@@ -51,21 +37,9 @@ iframe{
 img{
     display: block;
     margin: auto;
-    max-width: 49%;
-    max-height: 49%;
+    width: 45%;
+    height: 45%;
     padding-bottom: 10px;
-}
-
-#menu_left{
-    float: left;
-    position: relative;
-    top: 100px;
-}
-
-#menu_right{
-    float: right;
-    position: relative;
-    top: 100px;
 }
 
 .button{
