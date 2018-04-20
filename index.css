@@ -36,7 +36,7 @@ body{
     border-radius: 5px;
 }
     
-    p, a, td{
+    p, a, td, li{
         font-family: Courier;
         letter-spacing: -0.2px;
         text-decoration: none;
