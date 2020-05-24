@@ -13,3 +13,7 @@ body {
 .navbar a {
   color: white;
 }
+
+.container {
+    background: rgba(200,200,200,.5);
+}
