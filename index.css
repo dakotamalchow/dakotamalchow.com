@@ -1,5 +1,5 @@
 html {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 body {
@@ -10,10 +10,19 @@ body {
   color: white;
 }
 
-.navbar a {
-  color: white;
+h1 {
+  text-align: center;
 }
 
 .container {
-    background: rgba(200,200,200,.5);
+  margin-top: 25px;
+  background: rgba(25, 25, 25, 0.65);
+}
+
+.navbar {
+  background: rgb(25, 25, 25);
+}
+
+.nav-link, navbar-toggler{
+  color: white;
 }
