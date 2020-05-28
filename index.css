@@ -14,6 +14,10 @@ h1 {
   text-align: center;
 }
 
+hr {
+  border: 1px solid white;
+}
+
 .container {
   margin-top: 25px;
   background: rgba(25, 25, 25, 0.65);
@@ -23,15 +27,17 @@ h1 {
   background: rgb(25, 25, 25);
 }
 
-.navbar-brand, .nav-link {
+.navbar-brand,
+.nav-link {
   color: white;
 }
 
-.navbar-brand:hover, .nav-link:hover {
+.navbar-brand:hover,
+.nav-link:hover {
   color: white;
 }
 
 .fa-bars {
-    color: white;
-    font-size: 1.5em;
+  color: white;
+  font-size: 1.5em;
 }
