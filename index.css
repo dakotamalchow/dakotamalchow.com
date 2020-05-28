@@ -23,6 +23,15 @@ h1 {
   background: rgb(25, 25, 25);
 }
 
-.nav-link, navbar-toggler{
+.navbar-brand, .nav-link {
   color: white;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: white;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 1.5em;
 }
