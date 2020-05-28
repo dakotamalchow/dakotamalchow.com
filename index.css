@@ -1,9 +1,13 @@
+html, body {
+  height: 100%;
+}
+
 html {
   font-size: 1.25rem;
 }
 
 body {
-  background-image: url(img/black_rocks_horizontal.jpg);
+  background-image: url(img/black_rocks.jpg);
   background-size: cover;
   background-position: center;
   font-family: "Ubuntu Mono", monospace;
@@ -25,6 +29,7 @@ hr {
 
 .navbar {
   background: rgb(25, 25, 25);
+  border-bottom: 1px solid rgb(50,50,50);
 }
 
 .navbar-brand,
@@ -40,4 +45,8 @@ hr {
 .fa-bars {
   color: white;
   font-size: 1.5em;
+}
+
+#statement {
+  margin-top: 25%;
 }
