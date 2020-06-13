@@ -18,6 +18,10 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.6em;
+}
+
 hr {
   border: 1px solid white;
 }
@@ -52,6 +56,14 @@ iframe {
 .fa-bars {
   color: white;
   font-size: 1.5em;
+}
+
+hr {
+  border-top: 0.5px;
+}
+
+.bold {
+  border-top: 2px solid;
 }
 
 #statement {
