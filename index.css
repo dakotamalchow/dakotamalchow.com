@@ -26,13 +26,6 @@ hr {
   border: 1px solid white;
 }
 
-iframe {
-  height: 100%;
-  width: 100%;
-  border: none;
-  pointer-events: none;
-}
-
 .container {
   margin-top: 25px;
   background: rgba(25, 25, 25, 0.65);
