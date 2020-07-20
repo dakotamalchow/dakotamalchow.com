@@ -22,6 +22,15 @@ h3 {
   font-size: 1.6em;
 }
 
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
 hr {
   border: 1px solid white;
 }
